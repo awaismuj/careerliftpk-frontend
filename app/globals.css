@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+:root {
+  --bg: 255 255 255;
+  --fg: 15 23 42;
+  --card: 255 255 255;
+  --muted: 100 116 139;
+  --border: 226 232 240;
+  --primary: 37 99 235;
+  --accent: 16 185 129;
+}
+
+.dark {
+  --bg: 2 6 23;
+  --fg: 226 232 240;
+  --card: 15 23 42;
+  --muted: 148 163 184;
+  --border: 30 41 59;
+  --primary: 59 130 246;
+  --accent: 52 211 153;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: rgb(var(--bg));
+  color: rgb(var(--fg));
+}
+
+* {
+  border-color: rgb(var(--border));
+}
+
